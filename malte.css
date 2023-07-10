@@ -99,7 +99,7 @@ body {
 }
 .abouttext {
   grid-area: abouttext;
-  padding-left: 14rem;
+  padding-left: 9rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
