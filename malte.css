@@ -4,7 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
-  background-color: #242424;
+  /* background-color: #242424; */
 }
 
 .topspacing {
@@ -30,7 +30,7 @@ body {
 
 .container7 {
   height: fit-content;
-  width: 80vw;
+  width: 100vw;
   background-color: #fff;
   display: grid;
   grid-template-columns: 0.3fr 0.9fr 0.9fr 0.9fr 0.3fr;
@@ -85,7 +85,7 @@ body {
 
 .footercontainer {
   height: fit-content;
-  width: 80vw;
+  width: 100vw;
   background-color: #fff;
   border-bottom: 20px solid #00c5e1;
   display: grid;
@@ -97,6 +97,7 @@ body {
     "abouttext aboutlinks"
     ". .";
 }
+
 .abouttext {
   grid-area: abouttext;
   padding-left: 9rem;
@@ -105,6 +106,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .aboutlinks {
   grid-area: aboutlinks;
   display: flex;
@@ -112,13 +114,16 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
 .colorbar {
   grid-area: colorbar;
 }
+
 .carddescription {
   padding-left: 3rem;
   padding-right: 4rem;
 }
+
 .test {
   height: 500px;
 }
@@ -174,6 +179,7 @@ nav ul {
   padding-left: 0;
   margin-top: 2em;
 }
+
 nav ul li {
   line-height: 1.6rem;
 }
@@ -182,6 +188,7 @@ nav ul li a {
   text-decoration: none;
   color: #15212b;
 }
+
 @media (max-width: 1400px) {
   #caps {
     font-size: 2.5rem;
@@ -192,6 +199,7 @@ nav ul li a {
   .abouttext {
     padding-left: 8rem;
   }
+
   #caps {
     font-size: 2.3rem;
   }
@@ -222,6 +230,7 @@ nav ul li a {
   #logosmall {
     width: 10rem;
   }
+
   .pic71 {
     margin-bottom: 2em;
     display: flex;
@@ -267,6 +276,7 @@ nav ul li a {
       ". abouttext ."
       ". aboutlinks .";
   }
+
   .abouttext {
     grid-area: abouttext;
     padding-left: 1rem;
@@ -275,6 +285,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: flex-start;
   }
+
   .aboutlinks {
     grid-area: aboutlinks;
     display: flex;
@@ -283,6 +294,7 @@ nav ul li a {
     justify-content: space-evenly;
     margin-bottom: 2rem;
   }
+
   .colorbar {
     grid-area: colorbar;
   }
