@@ -1,0 +1,43 @@
+.group5-title {
+  font-size: 38px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.section-recover {
+  display: flex;
+}
+
+.section-recover-left {
+  display: flex;
+}
+
+.section-recover-left-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-recover-left-lists {
+  font-size: 21px;
+  letter-spacing: 2px;
+  line-height: 42px;
+  color: #1f262f;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Bitter";
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+.blue-subtitle {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #0cc4df;
+  font-weight: 400;
+  font-family: "Permanent Marker";
+}
