@@ -116,6 +116,11 @@ body {
   font-weight: normal;
 }
 
+#picsmall {
+    width: 100%;
+    height: auto;
+  }
+
 #caps {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -145,7 +150,7 @@ nav ul li a {
     color: #15212b;
 }
 
-@media only screen and (max-width: 990px) {
+@media (max-width: 990px) {
   .container7 {
     grid-template-columns: 0.15fr 1.2fr 0.15fr;
     grid-template-rows: 0.4fr 1fr 1fr 1fr 0.2fr;
