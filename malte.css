@@ -193,6 +193,8 @@ nav ul li a {
   color: ghostwhite
 }
 
+.section7-subtittle {}
+
 @media (max-width: 1400px) {
   #caps {
     font-size: 2.5rem;
