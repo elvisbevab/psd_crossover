@@ -1,0 +1,142 @@
+body {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.group5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding: 5rem;
+}
+
+.exes1 {
+  color: #0cc4df;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.recoverFromHike {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.hikeRec {
+  display: flex;
+  justify-content: left;
+  font-size: 2.5rem;
+  font-family: 'Bitter', serif;
+  font-weight: 900;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.recoverFromHike {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bitter', serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.recoverLine {
+  display: flex;
+  color: #0cc4df;
+  background-color: #0cc4df;
+  justify-content: left;
+  width: 5rem;
+  border: 5px solid;
+  border-radius: 3px;
+  margin: 0;
+  /* margin-left: 3rem; */
+}
+
+.mountain {
+  display: flex;
+  flex-direction: row;
+}
+
+.mPic {
+  height: 9rem;
+  width: auto;
+}
+
+.recover {
+  list-style: none;
+  line-height: 1.5rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+li {
+  line-height: 2rem;
+}
+.picAndGear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #0cc4df;
+  font-size: 1.5rem;
+}
+
+.gearPic {
+  height: 20rem;
+  width: min-content;
+}
+
+.exes2 {
+  display: flex;
+  color: #0cc4df;
+  font-size: 2rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.group6 {
+  background-image: url(./Maxpic/picTrek.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+  width: 60%;
+  margin: auto;
+}
+
+.group6Text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 3rem;
+  padding-left: 6rem;
+
+  color: white;
+}
+
+.recAct {
+  color: #fd5f00;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.activities {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.lor {
+  font-family: 'Bitter', serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
