@@ -1,11 +1,16 @@
-
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   background-color: #242424;
+}
+
+.topspacing {
+    height: fit-content;
+    width: 20%;
+    margin-top: 50px;
 }
 
 .wrapper {
@@ -13,12 +18,14 @@ body {
   height: 100vh;
   background-color: #242424;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container7 {
   height: fit-content;
-  width: fit-content;
+  width: 80vw;
   background-color: #fff;
   display: grid;
   grid-template-columns: 0.3fr 0.9fr 0.9fr 0.9fr 0.3fr;
@@ -60,27 +67,63 @@ body {
   color: #15212b;
 }
 
+.footercontainer {
+  height: fit-content;
+  width: 80vw;
+  background-color: #fff;
+  border-right: none;
+  border-bottom: 20px solid #00c5e1;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 0.3fr 1fr 0.08fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    "abouttext aboutlinks"
+    ". .";
+}
+.abouttext {
+  grid-area: abouttext;
+  padding-left: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.aboutlinks {
+  grid-area: aboutlinks;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.colorbar {
+  grid-area: colorbar;
+}
 .carddescription {
-    padding-left: 3rem;
-    padding-right: 4rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
 }
 
 #part7 {
-    background-color: #fff;
-    border: 1px solid #00cde5;
-    padding: 5px 2rem 5px 2rem;
-    
+  background-color: #fff;
+  border: 1px solid #00cde5;
+  padding: 5px 2rem 5px 2rem;
   color: #15212b;
 }
 
+#textnormal {
+  font-weight: normal;
+}
+
 #caps {
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: bolder;
 }
 
 hr {
-    display: block;
+  display: block;
   height: 1px;
   border: 0;
   border-top: 2px solid #b39db6;
@@ -88,55 +131,100 @@ hr {
   padding: 0;
 }
 
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 2em;
+}
+nav ul li {
+    line-height: 1.6rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #15212b;
+}
+
 @media only screen and (max-width: 990px) {
-    .container7 {
-        grid-template-columns: 0.15fr 1.2fr 0.15fr;
-        grid-template-rows: 0.4fr 1fr 1fr 1fr 0.2fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "title7 title7 title7"
-          ". pic71 ."
-          ". pic72 ."
-          ". pic73 ."
-          ". part7button .";
-      }
-
-      #picsmall {
-        width: 400px;
-      }
-
-      .title7 {
-      }
-      
-      .pic71 {
-        margin-bottom: 2em;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      .pic72 {
-        margin-bottom: 2em;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      .pic73 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      .part7button {
-        margin-bottom: 2rem;
-      }
-      
-      .carddescription {
-        width: 72%;
-      }
+  .container7 {
+    grid-template-columns: 0.15fr 1.2fr 0.15fr;
+    grid-template-rows: 0.4fr 1fr 1fr 1fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "title7 title7 title7"
+      ". pic71 ."
+      ". pic72 ."
+      ". pic73 ."
+      ". part7button .";
   }
+
+  #picsmall {
+    width: 400px;
+  }
+
+  .pic71 {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic72 {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic73 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part7button {
+    margin-bottom: 2rem;
+  }
+
+  .carddescription {
+    width: 72%;
+  }
+
+  .footercontainer {
+    width: 80vw;
+    background-color: #fff;
+    border-right: none;
+    border-bottom: 20px solid #00c5e1;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 0.3fr 0.8fr 0.08fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". abouttext ."
+      ". aboutlinks .";
+  }
+  .abouttext {
+    grid-area: abouttext;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .aboutlinks {
+    grid-area: aboutlinks;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .colorbar {
+    grid-area: colorbar;
+  }
+}
