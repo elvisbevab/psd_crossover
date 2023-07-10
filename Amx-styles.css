@@ -1,0 +1,41 @@
+.group4 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-image: url(./Maxpic/background.png);
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.textDiv4 {
+  padding: 4rem;
+  padding-left: 9rem;
+  padding-top: 4.5rem;
+}
+
+.group4Header {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  font-size: 3.5rem;
+}
+
+.subCaption4 {
+  font-size: 1.8rem;
+  font-family: 'Bitter', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lorem4 {
+  font-size: 1.5rem;
+  font-family: 'Bitter', serif;
+  font-style: italic;
+}
+
+.g4 {
+  color: white;
+  background-color: transparent;
+  width: 8rem;
+  border: #11b1c8 1px solid;
+  padding: 0.5rem 1.3rem;
+}
