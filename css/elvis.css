@@ -1,23 +1,44 @@
+* {
+  margin: 0;
+}
+
 .group5-title {
+  margin-top: 10rem;
+  margin-left: 10rem;
   font-size: 38px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #1f262f;
   font-weight: 700;
   font-family: "Bitter";
+  margin-bottom: 2rem;
+}
+
+.blue-line {
+  width: 95px;
+  height: 9px;
+  background-color: #0cc4df;
+  border: none;
+  margin-left: 10rem;
+  margin-bottom: 4rem;
 }
 
 .section-recover {
   display: flex;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
 }
 
 .section-recover-left {
   display: flex;
+  width: 50%;
+  gap: 5rem
 }
 
 .section-recover-left-images {
   display: flex;
   flex-direction: column;
+  gap: 5rem;
 }
 
 .section-recover-left-lists {
@@ -30,8 +51,21 @@
   font-family: "Bitter";
 }
 
+.list {
+  margin-bottom: 2rem;
+}
+
+.section-recover-left-lists-top {
+  margin-top: 0;
+}
+
+.section-recover-right {
+  width: 50%;
+}
+
 .round-image {
   border-radius: 50%;
+  margin-bottom: 4rem;
 }
 
 .blue-subtitle {
@@ -40,4 +74,42 @@
   color: #0cc4df;
   font-weight: 400;
   font-family: "Permanent Marker";
+}
+
+.section-6 {
+  height: 700px;
+  padding-top: 10rem;
+  background-image: url('/images/Section6.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.section-6-orange-title {
+  margin-left: 10rem;
+  font-size: 46px;
+  text-transform: uppercase;
+  color: #fd5f00;
+  font-weight: 400;
+  font-family: 'Permanent Marker';
+}
+
+.section-6-subtitle {
+  margin-left: 10rem;
+  font-size: 33px;
+  letter-spacing: 2px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-family: 'Bitter';
+}
+
+.section-6-body {
+  margin-left: 10rem;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Bitter';
 }
