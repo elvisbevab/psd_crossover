@@ -8,9 +8,9 @@ body {
 }
 
 .topspacing {
-    height: fit-content;
-    width: 20%;
-    margin-top: 50px;
+  height: fit-content;
+  width: 20%;
+  margin-top: 50px;
 }
 
 .trailpicture {
@@ -40,7 +40,7 @@ body {
   grid-template-areas:
     "title7 title7 title7 title7 title7"
     ". pic71 pic72 pic73 ."
-    ". . part7button . ."
+    ". . part7button . .";
 }
 
 .title7 {
@@ -52,15 +52,15 @@ body {
   align-items: center;
 }
 
-.pic71 {
+.picture-71 {
   grid-area: pic71;
 }
 
-.pic72 {
+.picture-72 {
   grid-area: pic72;
 }
 
-.pic73 {
+.picture-73 {
   grid-area: pic73;
 }
 
@@ -120,7 +120,7 @@ body {
   padding-right: 4rem;
 }
 .test {
-height: 500px;
+  height: 500px;
 }
 
 #part7 {
@@ -131,7 +131,7 @@ height: 500px;
   font-family: "Roboto Slab", serif;
 }
 
-#part7:hover{
+#part7:hover {
   background-color: #00cde5;
 }
 
@@ -140,9 +140,9 @@ height: 500px;
 }
 
 #picsmall {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+}
 
 #caps {
   text-transform: uppercase;
@@ -170,17 +170,17 @@ hr {
 }
 
 nav ul {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 2em;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 2em;
 }
 nav ul li {
-    line-height: 1.6rem;
+  line-height: 1.6rem;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #15212b;
+  text-decoration: none;
+  color: #15212b;
 }
 @media (max-width: 1400px) {
   #caps {
@@ -199,11 +199,10 @@ nav ul li a {
   .carddescription h2 {
     font-size: 1.4rem;
   }
-  
+
   .carddescription p {
     font-size: 1rem;
   }
-  
 }
 
 @media (max-width: 990px) {
@@ -223,7 +222,7 @@ nav ul li a {
   #logosmall {
     width: 10rem;
   }
-    .pic71 {
+  .pic71 {
     margin-bottom: 2em;
     display: flex;
     justify-content: center;
