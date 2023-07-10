@@ -148,6 +148,16 @@ height: 500px;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-weight: bolder;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.carddescription h2 {
+  font-size: 1.6rem;
+}
+
+.carddescription p {
+  font-size: 1.1rem;
 }
 
 hr {
@@ -172,16 +182,34 @@ nav ul li a {
     text-decoration: none;
     color: #15212b;
 }
+@media (max-width: 1400px) {
+  #caps {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .abouttext {
     padding-left: 8rem;
   }
+  #caps {
+    font-size: 2.3rem;
+  }
+
+  .carddescription h2 {
+    font-size: 1.4rem;
+  }
+  
+  .carddescription p {
+    font-size: 1rem;
+  }
+  
 }
 
 @media (max-width: 990px) {
   .container7 {
     grid-template-columns: 0.15fr 1.2fr 0.15fr;
-    grid-template-rows: 0.4fr 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 0.2fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -192,11 +220,10 @@ nav ul li a {
       ". part7button .";
   }
 
-  #picsmall {
-    width: 400px;
+  #logosmall {
+    width: 10rem;
   }
-
-  .pic71 {
+    .pic71 {
     margin-bottom: 2em;
     display: flex;
     justify-content: center;
@@ -234,7 +261,7 @@ nav ul li a {
     border-bottom: 20px solid #00c5e1;
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr;
-    grid-template-rows: 0.3fr 0.8fr 0.08fr;
+    grid-template-rows: 0.15fr 0.8fr 0.08fr;
     gap: 0px 0px;
     grid-template-areas:
       ". . ."
